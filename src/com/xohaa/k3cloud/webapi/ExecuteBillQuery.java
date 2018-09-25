@@ -9,7 +9,6 @@ import org.json.JSONObject;
  *
  */
 public abstract class ExecuteBillQuery extends Common{
-	private JSONObject paramdata = null;
 	public ExecuteBillQuery(String formid) throws JSONException {
 		super(formid);
 		this.initParamdata();

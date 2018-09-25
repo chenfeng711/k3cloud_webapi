@@ -308,6 +308,19 @@ public class K3Func {
 		this.log.setLeiXing(WebApi.Save_TITLE);
 		return this.execute(url, webapi);
 	}
+	
+	/**
+	 * 下推
+	 * @param webapi
+	 * @return
+	 * @throws Exception
+	 */
+	public int executePush(K3Funcable webapi) throws Exception{
+		System.out.println("--->执行下推接口：" + webapi.getFormID());
+		String url = this.getWebApiURL(WebApi.Push_URL);
+		this.log.setLeiXing(WebApi.Push_TITLE);
+		return this.execute(url, webapi);
+	}
 
 	/**
 	 * 查看单据

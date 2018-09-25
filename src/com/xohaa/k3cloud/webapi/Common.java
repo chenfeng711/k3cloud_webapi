@@ -12,7 +12,7 @@ import com.xohaa.k3cloud.K3Funcable;
  */
 public abstract class Common implements K3Funcable{
 	private String formid = null;
-	
+	protected JSONObject paramdata = null;
 	public Common(String formid) {
 		this.formid = formid;
 	}

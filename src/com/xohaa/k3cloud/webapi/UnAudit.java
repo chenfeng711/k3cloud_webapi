@@ -10,7 +10,6 @@ import org.json.JSONObject;
  *
  */
 public class UnAudit extends Common {
-	private JSONObject paramdata = null;
 	public UnAudit(String formid) throws JSONException {
 		super(formid);
 		this.initParamdata();

@@ -9,7 +9,6 @@ import org.json.JSONObject;
  *
  */
 public class Submit extends Common {
-	private JSONObject paramdata = null;
 	public Submit(String formid) throws JSONException {
 		super(formid);
 		this.initParamdata();

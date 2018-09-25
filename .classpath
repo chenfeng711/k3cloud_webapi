@@ -8,6 +8,6 @@
 	<classpathentry kind="lib" path="lib/httpmime-4.5.jar"/>
 	<classpathentry kind="lib" path="lib/xohaaFunc-v1.4.12_beta.jar"/>
 	<classpathentry kind="lib" path="lib/httpcore-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/swfupload/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -8,7 +8,6 @@ import org.json.JSONObject;
  *
  */
 public abstract class View extends Common {
-	private JSONObject paramdata = null;
 	public View(String formid) throws JSONException {
 		super(formid);
 		this.initParamdata();

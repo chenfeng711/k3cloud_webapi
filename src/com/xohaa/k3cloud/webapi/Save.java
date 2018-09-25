@@ -9,10 +9,8 @@ import com.xohaa.k3cloud.JSONString;
  */
 public abstract class Save extends Common{
 	private JSONString jsonstr = null;
-	private String formid = null;
 	public Save(String formid){
 		super(formid);
-		this.formid = formid;
 		this.initParamdata();
 	}
 	
@@ -31,7 +29,7 @@ public abstract class Save extends Common{
 
 	public String sendContentStr()  {
 		StringBuffer main = new StringBuffer(400);
-		main.append("{\"FormID\":\"").append(this.formid).append("\",\"data\":")
+		main.append("{\"FormID\":\"").append(this.getFormID()).append("\",\"data\":")
 		.append("{\"Creator\":\"\",\"NeedUpDateFields\":[],\"NeedReturnFields\":[],\"IsDeleteEntry\":\"True\",\"SubSystemId\":\"\",\"IsVerifyBaseDataField\":\"false\",\"IsEntryBatchFill\":\"True\",")
 		.append("\"Model\":{")
 		.append(jsonstr.getJsonstr());

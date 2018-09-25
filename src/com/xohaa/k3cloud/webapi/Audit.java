@@ -9,7 +9,6 @@ import org.json.JSONObject;
  *
  */
 public class Audit extends Common {
-	private JSONObject paramdata = null;
 	public Audit(String formid) throws JSONException {
 		super(formid);
 		this.initParamdata();

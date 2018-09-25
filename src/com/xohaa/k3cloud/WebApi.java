@@ -27,6 +27,9 @@ public final class WebApi {
 	
 	//表单数据查询接口
 	public static final String ExecuteBillQuery_URL = "/K3Cloud/Kingdee.BOS.WebApi.ServicesStub.DynamicFormService.ExecuteBillQuery.common.kdsvc";
+	
+	//下推
+	public static final String Push_URL = "/K3Cloud/Kingdee.BOS.WebApi.ServicesStub.DynamicFormService.Push.common.kdsvc";
 
 	
 	public static final String ValidateUser_TITLE = "登陆验证";
@@ -38,4 +41,5 @@ public final class WebApi {
 	public static final String UnAudit_TITLE = "反审表单";
 	public static final String Delete_TITLE = "删除数据";
 	public static final String ExecuteBillQuery_TITLE = "数据查询";
+	public static final String Push_TITLE = "下推单据";
 }

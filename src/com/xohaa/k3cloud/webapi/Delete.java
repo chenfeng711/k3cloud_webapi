@@ -10,7 +10,6 @@ import org.json.JSONObject;
  *
  */
 public class Delete extends Common {
-	private JSONObject paramdata = null;
 	public Delete(String formid) throws JSONException {
 		super(formid);
 		this.initParamdata();
